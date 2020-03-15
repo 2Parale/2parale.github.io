@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.blue-section {
+    background: #2f3192;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn-red {
+    background: #EF3A4D;
+    color: #fff;
+}
+
+.btn-red:hover {
+    background: #CB3343;
+    color: #fff;
+}
+
+.btn-primary {
+    background: #2F3192;
+}
+
+.btn-primary:hover {
+    background: #23256f;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none!important;
+    }
+}
+
