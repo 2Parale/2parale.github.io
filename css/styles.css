@@ -7,6 +7,16 @@ body {
     color: #fff;
 }
 
+.blue-section a {
+    color: #4999ef;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.blue-section a:hover {
+    color: #007bff;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
@@ -44,11 +54,13 @@ footer {
 
 @media (max-width: 767px) {
     .hidden-xs {
-        display: none!important;
+        display: none !important;
     }
+
     header .container {
         flex-direction: column;
     }
+
     header .container img {
         margin-bottom: 1rem;
     }
