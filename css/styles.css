@@ -17,6 +17,17 @@ body {
     color: #007bff;
 }
 
+a.link-img {
+    text-decoration: none !important;
+}
+
+.divider {
+    display: block;
+    background: rgba(255, 255, 255, 0.3);
+    height: 1px;
+    margin: 30px 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
