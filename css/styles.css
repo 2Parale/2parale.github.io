@@ -63,6 +63,12 @@ footer {
     color: #fff;
 }
 
+section.partners .col-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
 @media (max-width: 767px) {
     .hidden-xs {
         display: none !important;
